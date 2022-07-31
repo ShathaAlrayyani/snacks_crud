@@ -13,5 +13,3 @@ class Snack(models.Model):
 
     def get_absolute_url(self):
         return reverse("snack_detail", args=[str(self.id)])
-
-
